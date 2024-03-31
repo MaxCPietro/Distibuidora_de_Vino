@@ -16,10 +16,13 @@
                 <li><a href="#">Cientes</a></li>
                 <li><a href="#">Nosotros</a></li>
                 <li><a href="#">¿Dómde ubicarnos?Contacto</a></li>
-                <li><a href="#">Comtacto</a></li>
+                <li><a href="#contacto">Comtacto</a></li>
             </ul>
             
             <input type="button" value="Remitos" omclick="remito.html">
+
+            <button onclick="window.location.href='#contacto'">Contacto</button>
+
         </nav>
     </header>
 
@@ -38,7 +41,48 @@
             </iframe>
         </section>
         <hr/>
-        <section><h2> seccion 6 - Contacto</h2></section>
+        <section id="contacto"><h2> seccion 6 - Contacto</h2>
+            <fieldset>
+                <legend>Formulario de Contacto</legend>
+                <form>
+                    <label for="nombre"></label>
+                    <input type="text" id="nombre" placeholder="Nombre y Apellido"/></label>
+                    
+                    <label for ="interesado">Interesado</label>
+                    <select name="interesado" id="interesado">
+                        <option>Supermercado</option>
+                        <option>Mayorista</option>
+                        <option>Distribuiora</option>
+                        <option>Otro</option>
+                    </select>
+
+                    <label for="mepresa"></label>
+                    <input type="text" id="mepresa" placeholder="Nombre de la empresa"/>
+
+                    <label for="webSite"></label>
+                    <input type="text" id="webSite" placeholder="Redes o Sitio Web"/>
+
+                    <label for="email"></label>
+                    <input type="email" placeholder="correo Electrónico"/>
+
+                    <label for="tel"></label>
+                    <input type="tel" placeholder="+54 9 11 1111-1111"/>
+
+                    <label for="mensaje"></label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Por favor, contanos como te podemos ayudar"></textarea>
+
+                    <label for="terminos"></label>
+                    <input type="checkbox" name="terminos" id="terminos"/> Acepto la politica de privacidad y los terminos y condicones de Vientos de Altura</label>
+
+                    <label for="news"></label>
+                    <input type="checkbox" name="news" id="news"/> Deseo suscribirme a la newsletter
+
+                    <label for="enviar"></label>
+                    <input type="button" value="enviar"/>
+
+
+            </fieldset>
+        </section>
         <hr/>
     </main>
 

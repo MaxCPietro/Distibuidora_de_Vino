@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--link rel="stylesheet" href="../css/reset.css"-->
+    <link rel="stylesheet" href="../css/index.css">
     <title>Distibuidora de vino</title>
 </head>
 <body>
     <header>
-        <h1>Distibuidora de vino</h1>
+        <h1>Vientos del Sur - Distibuidora de vino</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -19,7 +20,7 @@
                 <li><a href="#contacto">Comtacto</a></li>
             </ul>
             
-            <input type="button" value="Remitos" omclick="remito.html">
+            <button value="Remitos" onclick="window.location.href='remito.html'"> Acceso a CRUD de Pedidos </button>
 
             <button onclick="window.location.href='#contacto'">Contacto</button>
 
@@ -41,14 +42,12 @@
             </iframe>
         </section>
         <hr/>
-        <section id="contacto"><h2> seccion 6 - Contacto</h2>
-            <fieldset>
-                <legend>Formulario de Contacto</legend>
-                <form>
+        <section class="seccion6" id="contacto"><h2> seccion 6 - Contacto</h2>
+            <form class="contactForm">
                     <label for="nombre"></label>
-                    <input type="text" id="nombre" placeholder="Nombre y Apellido"/></label>
+                    <input type="text" id="nombre" placeholder="Nombre y Apellido"/>
                     
-                    <label for ="interesado">Interesado</label>
+                    <label for="interesado">Interesado:</label>
                     <select name="interesado" id="interesado">
                         <option>Supermercado</option>
                         <option>Mayorista</option>
@@ -63,25 +62,23 @@
                     <input type="text" id="webSite" placeholder="Redes o Sitio Web"/>
 
                     <label for="email"></label>
-                    <input type="email" placeholder="correo Electrónico"/>
+                    <input type="email" id ="email" placeholder="correo Electrónico"/>
 
                     <label for="tel"></label>
-                    <input type="tel" placeholder="+54 9 11 1111-1111"/>
+                    <input type="tel" name="tel" id="tel" placeholder="+54 9 11 1111-1111"/>
 
                     <label for="mensaje"></label>
                     <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Por favor, contanos como te podemos ayudar"></textarea>
 
                     <label for="terminos"></label>
-                    <input type="checkbox" name="terminos" id="terminos"/> Acepto la politica de privacidad y los terminos y condicones de Vientos de Altura</label>
+                    <input type="checkbox" name="terminos" id="terminos"/> Acepto la politica de privacidad y los terminos y condicones de Vientos de Altura
 
                     <label for="news"></label>
                     <input type="checkbox" name="news" id="news"/> Deseo suscribirme a la newsletter
 
                     <label for="enviar"></label>
-                    <input type="button" value="enviar"/>
-
-
-            </fieldset>
+                    <input type="submit" name="enviar" id="enviar" value="enviar"/>
+            </form>
         </section>
         <hr/>
     </main>

@@ -9,14 +9,14 @@
 </head>
 <body>
     <header>
-        <h1>Vientos del Sur - Distibuidora de vino</h1>
+        <h1>Vientos del Sur - Bodega Mendozina</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Cientes</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">¿Dómde ubicarnos?Contacto</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#clientes">Cientes</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#ubicacion">¿Dómde ubicarnos?</a></li>
                 <li><a href="#contacto">Comtacto</a></li>
             </ul>
             
@@ -28,15 +28,33 @@
     </header>
 
     <main>
-        <section><h2>seccion 1 - Carrousel</h2></section>
+        <section class="seccion1" id="carrousel"><h2>seccion 1 - Carrousel</h2></section>
         <hr/>
-        <section><h2> seccion 2 - Productos</h2></section>
+        <section class="seccion2" id="productos"><h2> seccion 2 - Productos</h2></section>
         <hr/>
-        <section><h2> seccion 3 - Clientes</h2></section>
+        <section class="seccion3" id="clientes"><h2> seccion 3 - Clientes</h2></section>
         <hr/>
-        <section><h2> seccion 4 - Nosotros</h2></section>  
+        <section class="seccion4" id="nosotros"><h2> seccion 4 - Nosotros</h2>
+            <div class="divNostrosos">
+                <img src="../img/dueniaBodega.jpg" alt="logo" width="300">
+            </div>
+            <div class="divNostrosos">
+                <article>
+                    <p>En las enigmáticas tierras de la región, donde el viento acaricia los viñedos y susurra secretos ancestrales entre las cepas, nace una joya de la enología: Bodega Vientos de Altura. Aquí, en lo alto de las majestuosas montañas, donde el aire fresco y puro se mezcla con la esencia de la tierra, encontramos la esencia misma del arte enológico.</p>
+
+                    <p>Vientos de Altura no es solo una bodega, es un rincón de magia donde el tiempo se detiene para preservar la pureza de cada gota de vino. Cada uva, acariciada por el sol y acunada por el viento, es una historia que espera ser contada en cada sorbo, en cada encuentro con los sentidos.</p>
+                        
+                    <p>Nuestros viñedos, arraigados en la tierra como antiguos guardianes del terruño, reflejan la pasión y el compromiso de generaciones dedicadas a la creación de vinos excepcionales. Cada botella es una obra de arte, un testimonio del trabajo arduo y la devoción que dedicamos a nuestro oficio.</p>
+                        
+                    <p> cada cata, invitamos a nuestros visitantes a sumergirse en un viaje sensorial, donde los aromas se entrelazan como hilos de seda y los sabores danzan en el paladar como notas de una sinfonía celestial. En cada copa de nuestros vinos, se revela el alma misma de la naturaleza, el misterio del terroir que nos rodea.</p>
+                        
+                    <P>Bienvenidos a Bodega Vientos de Altura, donde el vino es más que una bebida: es un poema, una expresión del alma, una invitación a explorar los rincones más profundos de nuestros sentidos. En cada botella, descubrirán la esencia de la tierra, el susurro del viento y el arte eterno del vino.</P>
+                </article>
+            </div>
+
+        </section>  
         <hr/>
-        <section><h2> seccion 5 - ¿Dónde Ubicarnos?</h2>
+        <section class="seccion5" id="ubicacion"><h2> seccion 5 - ¿Dónde Ubicarnos?</h2>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.4198256205104!2d-58.8662582243238!3d-34.44148934894869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9c51de9fcd0f%3A0x400a4e64b5ba1a09!2sSgto.%20Juan%20Bautista%20Cabral%201155%2C%20La%20Lonja%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1711878846629!5m2!1sen!2sar" 
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             </iframe>
@@ -84,7 +102,12 @@
     </main>
 
     <footer>
-        <p style="text-align: center;">Este es el pie de pagina. Todos los Derechos Reservados</p>
+        <p style="text-align: center; background-color: gray; color: white;">Este es el pie de pagina. Todos los Derechos Reservados</p>
+        <p>Iconos de www.flaticon.es</p>
+        <img src="https://cdn-icons-png.flaticon.com/512/8293/8293395.png" width="40">
+        <img src="https://cdn-icons-png.flaticon.com/512/8293/8293402.png" width="40">
+        <img src="https://cdn-icons-png.flaticon.com/512/8293/8293404.png" width="40">
+        
     </footer>
 
 <script src="../js/index.js"></script>

@@ -5,9 +5,14 @@
     color: red;
 }
 
+.divNostrosos {
+    border: 1px solid black;
+    width: 50vw;
+    display: inline;
+}
 
 h1 {
-    color: aqua;
+    color: darkblue;
     display: block;
     font-size: 2em;
     margin-block-start: 0.67em;

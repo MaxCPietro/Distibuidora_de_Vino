@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
+    <!--link rel="stylesheet" href="css/reset.css"-->
     <link rel="stylesheet" href="css/index.css">
     <title>Vientos de Altura</title>
 </head>
@@ -23,28 +23,81 @@
             </div>
         </nav>
 
-            
-            
-            <button value="Remitos" onclick="window.location.href='html/remito.html'"> Acceso a CRUD de Pedidos </button>
-
-            <button onclick="window.location.href='#contacto'">Contacto</button>
-
+        <button value="Remitos" onclick="window.location.href='html/remito.html'"> Acceso a CRUD de Pedidos </button>
+        <button onclick="window.location.href='#contacto'">Contacto</button>
     </header>
 
     <main>
-        <section class="seccion1" id="carrousel"><h2>seccion 1 - Carrousel</h2></section>
         <hr/>
-        <section class="seccion2" id="productos"><h2> seccion 2 - Productos</h2></section>
+        <section class="seccion1" id="carrousel">
+            <h2>seccion 1 - Carrousel</h2>
+            <div class="carousel">
+                <div class="carousel-images">
+                    <img class="carousel-image" src="img/Carrusel/Bodega_01.jpeg" alt="carrusel 1">
+                    <img class="carousel-image" src="img/Carrusel/Bodega_02.jpeg" alt="carrusel 2">
+                    <img class="carousel-image" src="img/Carrusel/Bodega_03.jpeg" alt="carrusel 3">
+                    <img class="carousel-image" src="img/Carrusel/Bodega_04.jpeg" alt="carousel 4">
+                    <img class="carousel-image" src="img/Carrusel/Bodega_05.jpeg" alt="carousel 5">
+                    <img class="carousel-image" src="img/Carrusel/Bodega_06.jpeg" alt="carousel 6">
+                </div>
+            </div>
+        </section>
         <hr/>
-        <section class="seccion3" id="clientes"><h2> seccion 3 - Clientes</h2></section>
+        <section class="seccion2" id="productos"><h2> seccion 2 - Productos</h2>
+            <h3>Nuestros Productos</h3>
+            <ul class="productos">
+                <li class="caja">
+                    <h4 class="item">Patero Cabarceno 750cc</h4>
+                    <img class="item" src="img/Productos/Cabarceno-750-2-TR-2.png" alt="cabarceno750">
+                    <p class="item productoDescripcion">Para disfrutar</p>
+                    <p class="item productoPrecio">$ 10.00</p>
+                </li>
+                <li class="caja">
+                    <h4 class="item">Patero Cabarceno 1125cc</h4>
+                    <img class="item" src="img/Productos/Cabarceno-1125-3-TR.png" alt="cabarceno1125">
+                    <p class="item productoDescripcion">Para Compartir de a 2</p>
+                    <p class="item productoPrecio">$ 10.00</p>
+                </li>
+                <li class="caja">
+                    <h4 class="item">Patero Cabarceno 3000cc</h4>
+                    <img class="item" src="img/Productos/Cabarceno-3L-Blanco-2.png" alt="cabarceno3000">
+                    <p class="item productoDescripcion">Para Comer asados y acompañar un abrazo</p>
+                    <p class="item productoPrecio">$ 10.00</p>
+                </li>
+            
+        </section>
+        <hr/>
+        <section class="seccion3" id="clientes"><h2> seccion 3 - Clientes</h2>
+            <div class="divClientes">
+                <h3>Confían en nosotros</h3>
+                <h4>Conoce las empresas que nos se han permitido probar muestros productos y por lo tanto conocer nuestra bodega.</h4>
+                <img src="img/Clientes/falabella-1.png" alt="logo">
+                <img src="img/Clientes/ICBC.png" alt="logo">
+                <img src="img/Clientes/lacaja-1.png" alt="logo">
+                <img src="img/Clientes/Logo-Carrefour.jpg" alt="logo">
+                <img src="img/Clientes/Logo-cencosud.jpg" alt="logo">
+                <img src="img/Clientes/Logo-cos.jpg" alt="logo">
+                <img src="img/Clientes/Logo-coto.jpg" alt="logo">
+                <img src="img/Clientes/Logo-falabella.jpg" alt="logo">
+                <img src="img/Clientes/Logo-farmacity.jpg" alt="logo">
+                <img src="img/Clientes/Logo-Isa.png" alt="logo">
+                <img src="img/Clientes/Logo-sodimac.jpg" alt="logo">
+                <img src="img/Clientes/Logo-Uala.png" alt="logo">
+                <img src="img/Clientes/Logo-vital.jpg" alt="logo">
+                <img src="img/Clientes/Logo-walmart.jpg" alt="logo">
+                <img src="img/Clientes/metlife-1.png" alt="logo">
+                <img src="img/Clientes/sancor-1.png" alt="logo">
+                <img src="img/Clientes/sura-1.png" alt="logo">
+                <img src="img/Clientes/telecom3-1.png" alt="logo">
+                <img src="img/Clientes/waltmart.png" alt="logo">
+                <img src="img/Clientes/ypf-1.png" alt="logo">
+            </div>
+        </section>
         <hr/>
         <section class="seccion4" id="nosotros"><h2> seccion 4 - Nosotros</h2>
             <div class="divNostrosos">
-                <img src="img/dueniaBodega.jpg" alt="logo" width="300">
-            </div>
-
-            <div class="divNostrosos">
-                <!--article-->
+                <img src="img/dueniaBodega.jpg" alt="logo">
+                <article>
                     <p>En las enigmáticas tierras de la región, donde el viento acaricia los viñedos y susurra secretos ancestrales entre las cepas, nace una joya de la enología: Bodega Vientos de Altura. Aquí, en lo alto de las majestuosas montañas, donde el aire fresco y puro se mezcla con la esencia de la tierra, encontramos la esencia misma del arte enológico.</p>
 
                     <p>Vientos de Altura no es solo una bodega, es un rincón de magia donde el tiempo se detiene para preservar la pureza de cada gota de vino. Cada uva, acariciada por el sol y acunada por el viento, es una historia que espera ser contada en cada sorbo, en cada encuentro con los sentidos.</p>
@@ -54,7 +107,7 @@
                     <p> cada cata, invitamos a nuestros visitantes a sumergirse en un viaje sensorial, donde los aromas se entrelazan como hilos de seda y los sabores danzan en el paladar como notas de una sinfonía celestial. En cada copa de nuestros vinos, se revela el alma misma de la naturaleza, el misterio del terroir que nos rodea.</p>
                         
                     <P>Bienvenidos a Bodega Vientos de Altura, donde el vino es más que una bebida: es un poema, una expresión del alma, una invitación a explorar los rincones más profundos de nuestros sentidos. En cada botella, descubrirán la esencia de la tierra, el susurro del viento y el arte eterno del vino.</P>
-                <!--/article-->
+                </article>
             </div>
 
         </section>  
@@ -67,7 +120,8 @@
         <hr/>
         <section class="seccion6" id="contacto"><h2> seccion 6 - Contacto</h2>
             <form class="contactForm">
-                    <label for="nombre"></label>
+                    <sectionform>
+                        <label for="nombre"></label>
                     <input type="text" id="nombre" placeholder="Nombre y Apellido"/>
                     
                     <label for="interesado">Interesado:</label>
@@ -107,13 +161,10 @@
     </main>
 
     <footer>
-        <p style="text-align: center; background-color: gray; color: white;">Este es el pie de pagina. Todos los Derechos Reservados</p>
-        <p>Iconos de www.flaticon.es</p>
-        <img src="https://cdn-icons-png.flaticon.com/512/8293/8293395.png" width="40">
-        <img src="https://cdn-icons-png.flaticon.com/512/8293/8293402.png" width="40">
-        <img src="https://cdn-icons-png.flaticon.com/512/8293/8293404.png" width="40">
-        
-    </footer>
+        <p class="disclaimer">Este es el pie de pagina hecho por Maximiliano Correa Pietrobon. Todos los Derechos Reservados</p>
+        <p><strong>Seguinos en facebook</strong>
+        <img class="redSocial" src="img/Icons/facebook.png" alt="logo">
+        </p>
 
 <script src="../js/index.js"></script>
 </body>

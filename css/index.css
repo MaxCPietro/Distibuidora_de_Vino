@@ -1,57 +1,115 @@
-* { width: 100vw;
-    margin : 5vw auto;
+* {
+    width: 100vm;}
+
+header{ 
+    border: 1vw solid green;
 }
 
-nav {
-    background-color: #333; /* Cambia el color de fondo para hacerlo visible */
-    padding: 10px;
-    width: 100%;
+section{
+    border: 1vw solid red;
 }
 
-h1 {
-    color: #fff;
+section > div > img {
+    width: 20vw
 }
 
-nav ul {
-    color=white
-}
-.menu-toggle {
-    display: block; /* Mostrar el menú de hamburguesa por defecto */
+#carousel {
+    width: 100vw;
+    overflow: hidden;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: none; /* Ocultar la lista de navegación por defecto */
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
 }
 
-ul li {
+.carousel-images {
+    display: flex;
+    border: 1vw solid yellow
+}
+
+.productos {
+    width: 100vw;
+    position: relative;
+    margin: 0 auto;
+    padding: 50px;
+    border: 0.3vw solid green;
+}
+
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30vw;
+    vertical-align: top;
+    border: #000000 2px solid; 
+    border-radius: 10px;
+    margin: 0 1.5%;
+    background-color: #CCCCCC;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.caja .item {
+    height: 10vw;
+    position: relative;
+}
+
+.caja .img{
+    width: 10vw;
+    height: 10vw;
+    margin: 0 auto;}
+
+.divNostrosos img {
+    width: 20vw;
+}
+
+.divNostrosos article {
+    display: inline-block;
+    width: 70vw;
+    vertical-align: top;
+    border: #000000 2px solid; 
+    border-radius: 10px;
+    margin: 0 1.5%;
+    background-color: #CCCCCC;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    white-space: nowrap; /* Evita el salto de línea */ 
+    text-overflow: ellipsis;
+}
+
+.seccion6 {
+    width: 100vw;
+    margin: 0 auto;
+    border: 1vw solid goldenrod;
+}
+
+.contactFormt input, label, textarea {
+    width: 60%vw;
     display: block;
-    margin-bottom: 10px;
+    padding: 0.5vw;
 }
 
-.menu-toggle label {
-    color: #fff;
-    cursor: pointer;
+form > label > select {
+    display: inline;
 }
 
-/* Media query para dispositivos con una anchura mínima de 769px (pantallas más grandes) */
-@media screen and (min-width: 769px) {
-    .menu-toggle {
-        display: none; /* Ocultar el menú de hamburguesa para pantallas más grandes */
-    }
+footer{
+    width: 100vw;
+    border: 1vw solid blue;}
 
-    ul {
-        display: flex; /* Cambiar el diseño de la lista a flexbox */
-        justify-content: space-between; /* Distribuir los elementos de la lista horizontalmente */
-    }
+.disclaimer {
+    text-align: center; 
+    background-color: gray; 
+    color: white;
+} 
 
-    ul li {
-        display: inline;
-        margin: 0;
-    }
+footer p {
+    vertical-align: top;
+    text-align: center;
+    border: 1vw solid red;
 }
 
-
-
+.redSocial {
+    width: 2vw;}

@@ -9,10 +9,6 @@ section{
     border: 1vw solid red;
 }
 
-section > div > img {
-    width: 20vw
-}
-
 #carousel {
     width: 100vw;
     overflow: hidden;
@@ -29,12 +25,8 @@ section > div > img {
     border: 1vw solid yellow
 }
 
-.productos {
-    width: 100vw;
-    position: relative;
-    margin: 0 auto;
-    padding: 50px;
-    border: 0.3vw solid green;
+.ulproductos {
+    border: 1vw solid green;
 }
 
 .productos li {
@@ -50,6 +42,9 @@ section > div > img {
     box-sizing: border-box;
 }
 
+.logosClientes {
+    border: 1vw solid green
+}
 .caja .item {
     height: 10vw;
     position: relative;
@@ -80,15 +75,15 @@ section > div > img {
 }
 
 .seccion6 {
-    width: 100vw;
-    margin: 0 auto;
-    border: 1vw solid goldenrod;
+    border: 1vw solid red
 }
 
+form
+{
+    border: 1vw solid green
+}
 .contactFormt input, label, textarea {
-    width: 60%vw;
     display: block;
-    padding: 0.5vw;
 }
 
 form > label > select {
@@ -96,8 +91,7 @@ form > label > select {
 }
 
 footer{
-    width: 100vw;
-    border: 1vw solid blue;}
+border: 1vw solid blue;}
 
 .disclaimer {
     text-align: center; 
@@ -105,11 +99,26 @@ footer{
     color: white;
 } 
 
-footer p {
-    vertical-align: top;
-    text-align: center;
-    border: 1vw solid red;
-}
-
 .redSocial {
     width: 2vw;}
+
+.divNostros {
+    border: 1vw solid green
+}
+
+.duenia {
+    width: 20vw;
+    border: 1vw solid yellow;
+}
+
+article {
+        display: block;
+        width: 70vw;
+        border : 1vw solid  blue;
+    }
+
+.mapa {
+    border : 1vw solid green;
+    width: 50vw;
+    height: 50vw;
+}

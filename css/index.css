@@ -4,7 +4,39 @@
 /*1-CSS para etiquetas HTML*/
 header{ 
     border: 1vw solid green;
+    background: orange;
+    overflow: hidden;
 }
+
+nav div ul li {
+    display: inline-block;
+    margin-right: 2vmin;
+}
+
+nav div ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+nav div ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    nav div ul li {
+        display: block;
+        margin-right: 0;
+        text-align: center;   
+    }
+
+    nav div ul li a {
+        font-size: 5vw;
+    }
+}
+
 
 section{
     border: 1vw solid red;

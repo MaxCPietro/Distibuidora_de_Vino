@@ -1,6 +1,7 @@
-* {
-    width: 100vm;}
+/* 0-CSS para todo el sitio */
+* { width: 100vm;}
 
+/*1-CSS para etiquetas HTML*/
 header{ 
     border: 1vw solid green;
 }
@@ -8,6 +9,12 @@ header{
 section{
     border: 1vw solid red;
 }
+
+footer{
+    border: 1vw solid blue;
+}
+
+/*2-CSS para clases  y pseudoclases de CSS*/
 
 #carousel {
     width: 100vw;
@@ -27,23 +34,15 @@ section{
 
 .ulproductos {
     border: 1vw solid green;
-}
-
-.productos li {
-    display: inline-block;
-    text-align: center;
-    width: 30vw;
-    vertical-align: top;
-    border: #000000 2px solid; 
-    border-radius: 10px;
-    margin: 0 1.5%;
-    background-color: #CCCCCC;
-    padding: 30px 20px;
-    box-sizing: border-box;
+    margin: 0vw;
 }
 
 .logosClientes {
-    border: 1vw solid green
+    border: 1vw solid green;
+    margin-block-start: 0vw;
+    margin-block-end: 0vw;
+    margin-inline-start: 0vw;
+    margin-inline-end: 0vw;
 }
 .caja .item {
     height: 10vw;
@@ -74,11 +73,7 @@ section{
     text-overflow: ellipsis;
 }
 
-.seccion6 {
-    border: 1vw solid red
-}
-
-form
+.contactForm
 {
     border: 1vw solid green
 }
@@ -90,8 +85,7 @@ form > label > select {
     display: inline;
 }
 
-footer{
-border: 1vw solid blue;}
+
 
 .disclaimer {
     text-align: center; 

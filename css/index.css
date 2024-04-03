@@ -1,19 +1,50 @@
-/* 0-CSS para todo el sitio */
+/* 0 - CSS para todo el sitio */
 * { width: 100vm;}
 
-/*1-CSS para etiquetas HTML*/
+/*1 - CSS etiquetas HTML que aplican a toda la página*/
+/* Estilos para títulos */
+h1 {
+    font-family: Georgia, serif;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: #333; /* Color oscuro */
+}
+h2 {
+    font-family: Georgia, serif;
+    font-size: 2vw;
+    font-weight: bold;
+    color: #333; /* Color oscuro */
+}
+h3 {
+    font-family: Georgia, serif;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #333; /* Color oscuro */
+}
+h4 {
+    font-family: Georgia, serif;
+    font-size: 1vw;
+    font-weight: bold;
+    color: #333; /* Color oscuro */
+}
+
+section{
+    border: 1vw solid red;
+}
+
+/*2 - CSS HEADER*/
 header{ 
     border: 1vw solid green;
-    background: orange;
+    background: #f18624;
     overflow: hidden;
 }
 
-nav div ul li {
-    display: inline-block;
+header nav div ul li {
     margin-right: 2vmin;
+    display: inline;
 }
 
-nav div ul li a {
+header nav div ul li a {
     text-decoration: none;
     color: white;
     font-size: 1.5vw;
@@ -23,27 +54,55 @@ nav div ul li a {
     text-align: right;
 }
 
-nav div ul li a:hover {
+header nav div ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+.pedido {
+    background-color: #f18624;
+    color: rgb(255, 255, 255);
+    border-color: white;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 1.5vw;
+    
+}
+
+.pedido:hover {
     color: black;
     background-color: white;
 }
 
 @media only screen and (max-width: 768px) {
-    nav div ul li {
+    header nav div ul li {
         display: block;
         margin-right: 0;
-        text-align: center;   
+        text-align: center;
+        margin-bottom: 2vmin;
     }
-
-    nav div ul li a {
+    header nav div ul li a {
         font-size: 5vw;
     }
 }
 
-
-section{
-    border: 1vw solid red;
+/*3 - CSS SECCION 1*/
+.carousel{
+    display: flex;
+    overflow: hidden;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
 }
+
+.carousel-image {
+    max-width: 50%;
+    height: 50%;
+    object-fit: cover;
+    display: flex;
+    border: 1vw solid yellow;
+}
+
+/**/ 
 
 footer{
     border: 1vw solid blue;
@@ -51,21 +110,11 @@ footer{
 
 /*2-CSS para clases  y pseudoclases de CSS*/
 
-#carousel {
-    width: 100vw;
-    overflow: hidden;
-}
 
-.carousel {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-}
 
-.carousel-images {
-    display: flex;
-    border: 1vw solid yellow
-}
+
+
+
 
 .ulproductos {
     border: 1vw solid green;

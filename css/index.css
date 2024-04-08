@@ -81,7 +81,7 @@ header nav div ul li a:hover {
         text-align: center;
         margin-bottom: 2vmin;
     }
-    header nav div ul li a {
+    header nav div ul li a, header nav div ul li .pedido {
         font-size: 5vw;
     }
 }

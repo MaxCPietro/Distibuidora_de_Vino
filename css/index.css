@@ -1,4 +1,4 @@
-/* 0 - CSS para todo el sitio */
+/* 0 - CSS que aplica a todo*/
 * { width: 100vm;}
 
 /*1 - CSS etiquetas HTML que aplican a toda la página*/
@@ -30,6 +30,12 @@ h4 {
 
 section{
     border: 0.5vw solid red;
+}
+
+article {
+    display: block;
+    width: 70vw;
+    border : 0.5vw solid  blue;
 }
 
 /*2 - CSS HEADER*/
@@ -110,19 +116,14 @@ footer{
 
 /*2-CSS para clases  y pseudoclases de CSS*/
 
+/*Sección 1 - Carousel*/
+
+/*Sección 2 - Productos*/
 .ulproductos {
     border: 0.5vw solid black;
     margin: 0vw;
 }
-
-.logosClientes {
-    border: 0.5vw solid green;
-    margin-block-start: 0vw;
-    margin-block-end: 0vw;
-    margin-inline-start: 0vw;
-    margin-inline-end: 0vw;
-}
-.caja .item {
+/*.caja .item {
     height: 10vw;
     position: relative;
 }
@@ -130,7 +131,27 @@ footer{
 .caja .img{
     width: 10vw;
     height: 10vw;
-    margin: 0 auto;}
+    margin: 0 auto;
+}*/
+
+/*Sección 3 - Clientes*/
+.logosClientes {
+    border: 0.5vw solid green;
+    margin-block-start: 0vw;
+    margin-block-end: 0vw;
+    margin-inline-start: 0vw;
+    margin-inline-end: 0vw;
+}
+
+/*Seccion 4 - Nosotros*/
+.divNostros {
+    border: 0.5vw solid green
+}
+
+.duenia {
+    width: 20vw;
+    border: 0.5vw solid yellow;
+}
 
 .divNostrosos img {
     width: 20vw;
@@ -151,6 +172,15 @@ footer{
     text-overflow: ellipsis;
 }
 
+/*Seccion 5 - Ubicacion*/
+.mapa {
+    border : 0.5vw solid green;
+    width: 50vw;
+    height: 50vw;
+}
+
+
+/*Seccion 6 - Contacto*/
 .contactForm
 {
     border: 0.5vw solid greenyellow
@@ -169,26 +199,7 @@ form > label > select {
     color: white;
 } 
 
+/*footer*/
 .redSocial {
     width: 2vw;}
 
-.divNostros {
-    border: 0.5vw solid green
-}
-
-.duenia {
-    width: 20vw;
-    border: 0.5vw solid yellow;
-}
-
-article {
-        display: block;
-        width: 70vw;
-        border : 0.5vw solid  blue;
-    }
-
-.mapa {
-    border : 0.5vw solid green;
-    width: 50vw;
-    height: 50vw;
-}

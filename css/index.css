@@ -92,7 +92,7 @@ header nav div ul li a:hover {
     }
 }
 
-/*3 - CSS SECCION 1*/
+/*3 - CSS SECCION 1 - Carousel*/
 .carousel{
     display: flex;
     overflow: hidden;
@@ -108,17 +108,8 @@ header nav div ul li a:hover {
     border: 0.5vw solid yellow;
 }
 
-/**/ 
+/*4 - CSS Sección 2 - Productos*/
 
-footer{
-    border: 0.5vw solid blue;
-}
-
-/*2-CSS para clases  y pseudoclases de CSS*/
-
-/*Sección 1 - Carousel*/
-
-/*Sección 2 - Productos*/
 .ulproductos {
     border: 0.5vw solid black;
     margin: 0vw;
@@ -134,7 +125,7 @@ footer{
     margin: 0 auto;
 }*/
 
-/*Sección 3 - Clientes*/
+/*5 - CSS Sección 3 - Clientes*/
 .logosClientes {
     border: 0.5vw solid green;
     margin-block-start: 0vw;
@@ -143,7 +134,7 @@ footer{
     margin-inline-end: 0vw;
 }
 
-/*Seccion 4 - Nosotros*/
+/*6 - CSS Seccion 4 - Nosotros*/
 .divNostros {
     border: 0.5vw solid green
 }
@@ -172,7 +163,7 @@ footer{
     text-overflow: ellipsis;
 }
 
-/*Seccion 5 - Ubicacion*/
+/*7 - CSS Seccion 5 - Ubicacion*/
 .mapa {
     border : 0.5vw solid green;
     width: 50vw;
@@ -180,7 +171,7 @@ footer{
 }
 
 
-/*Seccion 6 - Contacto*/
+/*8 - CSS Seccion 6 - Contacto*/
 .contactForm
 {
     border: 0.5vw solid greenyellow
@@ -199,7 +190,10 @@ form > label > select {
     color: white;
 } 
 
-/*footer*/
+/*9 - CSS footer*/
+footer{
+    border: 0.5vw solid blue;
+}
 .redSocial {
     width: 2vw;}
 

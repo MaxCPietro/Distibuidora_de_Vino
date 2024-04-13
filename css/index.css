@@ -2,7 +2,7 @@
 * { width: 100vm;}
 
 /*1 - CSS etiquetas HTML que aplican a toda la página*/
-/* Estilos para títulos */
+
 h1 {
     font-family: Georgia, serif;
     font-size: 2.5vw;
@@ -32,19 +32,27 @@ section{
     border: 0.5vw solid red;
 }
 
-article {
-    display: block;
-    width: 70vw;
-    border : 0.5vw solid  blue;
+strong {
+    font-weight: bold;
 }
-
 /*2 - CSS HEADER*/
 header{ 
-    border: 0.5vw solid green;
     background: #f18624;
-    overflow: hidden;
+    margin: 0px;
 }
 
+header nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav img {
+    width: 150px;
+    margin-left: 1vw;
+}
 header nav div ul li {
     margin-right: 2vmin;
     display: inline;
@@ -54,21 +62,18 @@ header nav div ul li a {
     text-decoration: none;
     color: white;
     font-size: 1.5vw;
-}
-
-.menu ul {
-    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif
 }
 
 header nav div ul li a:hover {
     color: black;
-    background-color: white;
+    background-color: #FFE184;
 }
 
 .pedido {
     background-color: #f18624;
     color: rgb(255, 255, 255);
-    border-color: white;
+    border-color: black;
     text-align: center;
     border-radius: 4px;
     font-size: 1.5vw;
@@ -77,10 +82,16 @@ header nav div ul li a:hover {
 
 .pedido:hover {
     color: black;
-    background-color: white;
+    background-color: #FFE184;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 700px) {
+    header nav {
+        flex-direction: column;
+        align-content: center;
+        margin: 10%;
+        width: 80%;
+    }
     header nav div ul li {
         display: block;
         margin-right: 0;
@@ -93,6 +104,10 @@ header nav div ul li a:hover {
 }
 
 /*3 - CSS SECCION 1 - Carousel*/
+.seccion1{
+    background: #FFE184;
+}
+
 .carousel{
     display: flex;
     overflow: hidden;
@@ -135,32 +150,47 @@ header nav div ul li a:hover {
 }
 
 /*6 - CSS Seccion 4 - Nosotros*/
-.divNostros {
-    border: 0.5vw solid green
+.contenedorNosotros {
+    border: 0.5vw solid green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    align-items: center;
 }
 
-.duenia {
+.contenedorNosotros img {
     width: 20vw;
     border: 0.5vw solid yellow;
 }
-
-.divNostrosos img {
-    width: 20vw;
+.contenedorNosotros ul {
+    width: 70vw;
+    border: 0.5vw solid black;
+    text-align: justify;
 }
 
-.divNostrosos article {
-    display: inline-block;
-    width: 70vw;
-    vertical-align: top;
-    border: #000000 2px solid; 
-    border-radius: 10px;
-    margin: 0 1.5%;
-    background-color: #CCCCCC;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    word-wrap: break-word;
-    white-space: nowrap; /* Evita el salto de línea */ 
-    text-overflow: ellipsis;
+.contenedorNosotros ul li {
+    color: #f18624;
+    font-size: 2vw;
+    margin-bottom: 2vw;
+}
+
+@media only screen and (max-width: 700px) {
+    .contenedorNosotros {
+        flex-direction: column;
+        align-content: center;
+        margin: 10%;
+        width: 80%;
+    }
+    .contenedorNosotros img {
+        width: 100%;
+    }
+    .contenedorNosotros ul{
+        width: 100%;
+    }
+    .contenedorNosotros ul li {
+        font-size: 4vw;
+    }
 }
 
 /*7 - CSS Seccion 5 - Ubicacion*/

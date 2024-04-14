@@ -1,4 +1,4 @@
-/* 0 - CSS que aplica a todo*/
+/*0 - CSS que aplica a todo*/
 * { width: 100vm;}
 
 /*1 - CSS etiquetas HTML que aplican a toda la página*/
@@ -35,7 +35,28 @@ section{
 strong {
     font-weight: bold;
 }
-/*2 - CSS HEADER*/
+
+/*2 - Clases que aplican a toda la página*/
+.btn {
+    display: inline-block;
+    background-color: #FFE184;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: center;
+}
+
+.btn:hover {
+    color: #333;
+}
+
+/*3 - CSS HEADER*/
 header{ 
     background: #f18624;
     margin: 0px;
@@ -85,6 +106,7 @@ header nav div ul li a:hover {
     background-color: #FFE184;
 }
 
+/*3.1 - CSS HEADER - RESPONSIVE*/
 @media only screen and (max-width: 700px) {
     header nav {
         flex-direction: column;
@@ -103,7 +125,7 @@ header nav div ul li a:hover {
     }
 }
 
-/*3 - CSS SECCION 1 - Carousel*/
+/*4 - CSS SECCION 1 - Carousel*/
 .seccion1{
     background: #FFE184;
 }
@@ -123,52 +145,28 @@ header nav div ul li a:hover {
     border: 0.5vw solid yellow;
 }
 
-.btn {
-    display: inline-block;
-    background-color: #FFE184;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    margin-top: 10px;
-    align-self: center;
-}
-
-.btn:hover {
-    color: #333;
-}
-
-/*4 - CSS Sección 2 - Productos*/
+/*5 - CSS Sección 2 - Productos*/
 
 .ulproductos {
     border: 0.5vw solid black;
     margin: 0vw;
 }
-/*.caja .item {
-    height: 10vw;
-    position: relative;
-}
 
-.caja .img{
-    width: 10vw;
-    height: 10vw;
-    margin: 0 auto;
-}*/
-
-/*5 - CSS Sección 3 - Clientes*/
-.logosClientes {
+/*6 - CSS Sección 3 - Clientes*/
+.gridContainerClientes {
     border: 0.5vw solid green;
-    margin-block-start: 0vw;
-    margin-block-end: 0vw;
-    margin-inline-start: 0vw;
-    margin-inline-end: 0vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: start; /*no funciona*/
 }
 
-/*6 - CSS Seccion 4 - Nosotros*/
+.gridItemCliente {
+    border: 0.1vw solid blue;
+    width: 50%;
+    height: 90%;
+}
+
+/*7 - CSS Seccion 4 - Nosotros*/
 .contenedorNosotros {
     border: 0.5vw solid green;
     display: flex;
@@ -194,6 +192,7 @@ header nav div ul li a:hover {
     margin-bottom: 2vw;
 }
 
+/*7.1 - CSS Seccion 4 - Nosotros - Media Query*/
 @media only screen and (max-width: 700px) {
     .contenedorNosotros {
         flex-direction: column;
@@ -212,7 +211,7 @@ header nav div ul li a:hover {
     }
 }
 
-/*7 - CSS Seccion 5 - Ubicacion*/
+/*8 - CSS Seccion 5 - Ubicacion*/
 .mapa {
     border : 0.5vw solid green;
     width: 50vw;
@@ -220,7 +219,7 @@ header nav div ul li a:hover {
 }
 
 
-/*8 - CSS Seccion 6 - Contacto*/
+/*9 - CSS Seccion 6 - Contacto*/
 .contactForm
 {
     border: 0.5vw solid greenyellow
@@ -233,7 +232,7 @@ form > label > select {
     display: inline;
 }
 
-/*9 - CSS footer*/
+/*10 - CSS footer*/
 footer {
     border: 0.5vw solid blue;
     background-color: #20232a;
@@ -285,7 +284,7 @@ footer .newsletter-form button {
     margin: 0;
 }
 
-/* Estilos para pantallas más pequeñas */
+/* 10.1 - Estilos para pantallas más pequeñas */
 @media (max-width: 768px) {
     footer .container {
         padding-left: 15px;

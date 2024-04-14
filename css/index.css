@@ -157,7 +157,7 @@ header nav div ul li a:hover {
     border: 0.5vw solid green;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: start; /*no funciona*/
+    justify-content: end; /*no funciona*/
 }
 
 .gridItemCliente {

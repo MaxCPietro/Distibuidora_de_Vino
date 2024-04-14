@@ -73,7 +73,7 @@ header nav div ul li a:hover {
 .pedido {
     background-color: #f18624;
     color: rgb(255, 255, 255);
-    border-color: black;
+    border-color: white;
     text-align: center;
     border-radius: 4px;
     font-size: 1.5vw;
@@ -121,6 +121,25 @@ header nav div ul li a:hover {
     object-fit: cover;
     display: flex;
     border: 0.5vw solid yellow;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #FFE184;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: center;
+}
+
+.btn:hover {
+    color: #333;
 }
 
 /*4 - CSS Sección 2 - Productos*/

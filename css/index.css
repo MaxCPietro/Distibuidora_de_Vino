@@ -145,28 +145,7 @@ header nav div ul li a:hover {
     border: 0.5vw solid yellow;
 }
 
-/*5 - CSS Sección 2 - Productos*/
-
-.ulproductos {
-    border: 0.5vw solid black;
-    margin: 0vw;
-}
-
-/*6 - CSS Sección 3 - Clientes*/
-.gridContainerClientes {
-    border: 0.5vw solid green;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: end; /*no funciona*/
-}
-
-.gridItemCliente {
-    border: 0.1vw solid blue;
-    width: 50%;
-    height: 90%;
-}
-
-/*7 - CSS Seccion 4 - Nosotros*/
+/*5 - CSS Seccion 4 - Nosotros*/
 .contenedorNosotros {
     border: 0.5vw solid green;
     display: flex;
@@ -192,7 +171,7 @@ header nav div ul li a:hover {
     margin-bottom: 2vw;
 }
 
-/*7.1 - CSS Seccion 4 - Nosotros - Media Query*/
+/*5.1 - CSS Seccion 4 - Nosotros - Media Query*/
 @media only screen and (max-width: 700px) {
     .contenedorNosotros {
         flex-direction: column;
@@ -209,6 +188,27 @@ header nav div ul li a:hover {
     .contenedorNosotros ul li {
         font-size: 4vw;
     }
+}
+
+/*6 - CSS Sección 2 - Productos*/
+
+.ulproductos {
+    border: 0.5vw solid black;
+    margin: 0vw;
+}
+
+/*7 - CSS Sección 3 - Clientes*/
+.gridContainerClientes {
+    border: 0.5vw solid green;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: end; /*no funciona*/
+}
+
+.gridItemCliente {
+    border: 0.1vw solid blue;
+    width: 50%;
+    height: 90%;
 }
 
 /*8 - CSS Seccion 5 - Ubicacion*/

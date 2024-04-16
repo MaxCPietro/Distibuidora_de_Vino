@@ -201,14 +201,17 @@ header nav div ul li a:hover {
 .gridContainerClientes {
     border: 0.5vw solid green;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: end; /*no funciona*/
+    grid-template-columns: repeat(6,200px);
+    justify-content: center;
 }
 
 .gridItemCliente {
     border: 0.1vw solid blue;
-    width: 50%;
-    height: 90%;
+    width: 192px;
+    height: 97px;
+    text-align: center;
+    align-self: center;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 /*8 - CSS Seccion 5 - Ubicacion*/

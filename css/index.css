@@ -4,6 +4,7 @@
 /*Definicion de Variables CSS*/
 :root {
     --colorPrimario: #f18624;
+    --colorsecundario: #1395BA;
 }
 
 /*1 - CSS etiquetas HTML que aplican a toda la página*/
@@ -12,19 +13,19 @@ h1 {
     font-family: Georgia, serif;
     font-size: 2.5vw;
     font-weight: bold;
-    color: #333; /* Color oscuro */
+    color: var(--colorsecundario); /* Color oscuro */
 }
 h2 {
     font-family: Georgia, serif;
     font-size: 2vw;
     font-weight: bold;
-    color: #333; /* Color oscuro */
+    color: var(--colorPrimario); /* Color oscuro */
 }
 h3 {
     font-family: Georgia, serif;
     font-size: 1.5vw;
     font-weight: bold;
-    color: #333; /* Color oscuro */
+    color: var(--colorsecundario); /* Color oscuro */
 }
 h4 {
     font-family: Georgia, serif;
@@ -200,6 +201,10 @@ header nav div ul li a:hover {
 .ulproductos {
     border: 0.5vw solid black;
     margin: 0vw;
+    padding: 0vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 /*7 - CSS Sección 3 - Clientes*/

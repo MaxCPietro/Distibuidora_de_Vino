@@ -1,6 +1,11 @@
 /*0 - CSS que aplica a todo*/
 * { width: 100vm;}
 
+/*Definicion de Variables CSS*/
+:root {
+    --colorPrimario: #f18624;
+}
+
 /*1 - CSS etiquetas HTML que aplican a toda la página*/
 
 h1 {
@@ -203,6 +208,7 @@ header nav div ul li a:hover {
     display: grid;
     grid-template-columns: repeat(6,200px);
     justify-content: center;
+    gap: 0px;
 }
 
 .gridItemCliente {
@@ -210,10 +216,22 @@ header nav div ul li a:hover {
     width: 192px;
     height: 97px;
     text-align: center;
-    align-self: center;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
+#btnClientes {
+    width: auto;
+    height: 40px;
+    background-color: var(--colorPrimario);
+    color: white;
+    font-size: 1vw;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    border-radius: 0.5vw;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    display:flex ;
+        justify-content: center;
+        align-items: center;
+}
 /*8 - CSS Seccion 5 - Ubicacion*/
 .mapa {
     border : 0.5vw solid green;

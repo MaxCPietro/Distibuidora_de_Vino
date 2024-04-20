@@ -47,7 +47,7 @@ strong {
 .btn {
     display: inline-block;
     background-color: #FFE184;
-    color: white;
+    color: black;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -60,12 +60,12 @@ strong {
 }
 
 .btn:hover {
-    color: #333;
+    color: white;
 }
 
 /*3 - CSS HEADER*/
 header{ 
-    background: #f18624;
+    background: #CCCCCC;
     margin: 0px;
 }
 
@@ -88,7 +88,7 @@ header nav div ul li {
 
 header nav div ul li a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 1.5vw;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif
 }
@@ -99,18 +99,18 @@ header nav div ul li a:hover {
 }
 
 .pedido {
-    background-color: #f18624;
-    color: rgb(255, 255, 255);
+    background-color:  #FFE184;
+    color: black;
     border-color: white;
     text-align: center;
-    border-radius: 4px;
+    /*border-radius: 7%;*/
     font-size: 1.5vw;
     
 }
 
 .pedido:hover {
     color: black;
-    background-color: #FFE184;
+    background-color: #CCCCCC;
 }
 
 /*3.1 - CSS HEADER - RESPONSIVE*/
@@ -134,7 +134,7 @@ header nav div ul li a:hover {
 
 /*4 - CSS SECCION 1 - Carousel*/
 .seccion1{
-    background: #FFE184;
+    /*background: #FFE184;*/
     border: none;
 }
 
@@ -230,25 +230,24 @@ header nav div ul li a:hover {
     text-align: center;
 }
 
-#btnClientes {
-    width: auto;
-    height: 40px;
-    background-color: var(--colorPrimario);
-    color: white;
-    font-size: 1vw;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    border-radius: 0.5vw;
-    grid-column-start: 2;
-    grid-column-end: 4;
-    display:flex ;
-        justify-content: center;
-        align-items: center;
-}
 /*8 - CSS Seccion 5 - Ubicacion*/
+.mapaContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+}
 .mapa {
-    border : 0.5vw solid green;
+    border : 0.3vw solid green;
     width: 50vw;
     height: 50vw;
+}
+
+.contacto {
+    border : 0.3vw solid orange;
+    width: 50vw;
 }
 
 

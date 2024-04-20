@@ -10,17 +10,16 @@
     <link rel="icon" href="img/logos/wine-glass.svg"/>
 
     <!-- JavaScript-->
-    <script>
-        console.log("hola mundo");
+    <!--script>
         var respuesta = confirm("Para acceder a esta página debes ser mayor de 18 anios.\n\n¿Sos mayor de edad?");
         if (!respuesta) { window.location.href = "https://www.disneylatino.com"; }
-    </script>
+    </script-->
 </head>
 
 <body>
     <header>
         <nav>
-            <img class="logoNav" src="img/logos/logo300.png" alt="logoNav">
+            <img class="logoNav" src="img/logos/vientosDeAltura-logo.png" alt="logoNav">
             <div class="menu">
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -54,11 +53,14 @@
                     <li><strong>En las tierras de la región,</strong> donde el viento acaricia los viñedos y susurra secretos ancestrales entre las cepas, nace una joya de la enología: Bodega Vientos de Altura. Aquí, en lo alto de las majestuosas montañas, donde el aire fresco y puro se mezcla con la esencia de la tierra, encontramos la esencia misma del arte enológico.</li>
                     <li><strong>Vientos de Altura </strong>no es solo una bodega, es un rincón de magia donde el tiempo se detiene para preservar la pureza de cada gota de vino. Cada uva, acariciada por el sol y acunada por el viento, es una historia que espera ser contada en cada sorbo, en cada encuentro con los sentidos.</li>                        
                     <li><strong>Nuestros Viñedos, </strong>arraigados en la tierra como antiguos guardianes del terruño, reflejan la pasión y el compromiso de generaciones dedicadas a la creación de vinos excepcionales. Cada botella es una obra de arte, un testimonio del trabajo arduo y la devoción que dedicamos a nuestro oficio.</li>    
-                    <li><strong>Bienvenidos a la Bodega Vientos de Atura, </strong>donde el vino es más que una bebida: es un poema, una expresión del alma, una invitación a explorar los rincones más profundos de nuestros sentidos. En cada botella, descubrirán la esencia de la tierra, el susurro del viento y el arte eterno del vino.</li>
                 </ul>
             </div>
+            <p><strong>Bienvenidos a la Bodega Vientos de Atura, </strong>donde el vino es más que una bebida: es un poema, una expresión del alma, una invitación a explorar los rincones más profundos de nuestros sentidos. En cada botella, descubrirán la esencia de la tierra, el susurro del viento y el arte eterno del vino.</p>
             <div class="btnBodega">
-                <a href="html/bodega.html" class="btn">CONOCER MÁS</a>
+                <a href="html/bodega.html" class="btn">
+                    <span style="margin-right: 10px">CONOCENOS MAS</span>
+                    <img src="img/logos/60995.png" width="10px" alt="dropdown">
+                </a>
             </div>
         </section>
         <hr/>
@@ -85,7 +87,10 @@
                 </ul>
             </div>
             <div class="btnBodega">
-                <a href="html/productos.html" class="btn">VER MÁS</a>
+                <a href="html/productos.html" class="btn">
+                    <span style="margin-right: 10px">VER MAS</span>
+                    <img src="img/logos/60995.png" width="10px" alt="dropdown">
+                </a>
             </div>
         </section>
         <hr/>
@@ -110,16 +115,60 @@
                 <img  class="gridItemCliente" src="img/Clientes/metlife-1.png" alt="logo">
                 <img  class="gridItemCliente" src="img/Clientes/sancor-1.png" alt="logo">
                 <img  class="gridItemCliente" src="img/Clientes/sura-1.png" alt="logo">
-                <!--img  class="gridItemCliente" src="img/Clientes/telecom3-1.png" alt="logo">
-                <img  class="gridItemCliente" src="img/Clientes/ypf-1.png" alt="logo"-->
-                <a href="html/clientes.html" class="gridItemCliente" id="btnClientes">VER MÁS</a>
+                <img  class="gridItemCliente" src="img/Clientes/telecom3-1.png" alt="logo">
+                <img  class="gridItemCliente" src="img/Clientes/ypf-1.png" alt="logo">
+            </div>
+            <div class="btnBodega">
+                <a href="html/clientes.html" class="btn">
+                    <span style="margin-right: 10px">VER MAS</span>
+                    <img src="img/logos/60995.png" width="10px" alt="dropdown">
+                </a>
             </div>
         </section>
         <hr/>
 
-        <section class="seccion5" id="ubicacion"><h2> seccion 5 - ¿Dónde Ubicarnos?</h2>
-            <iframe class ="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.4198256205104!2d-58.8662582243238!3d-34.44148934894869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9c51de9fcd0f%3A0x400a4e64b5ba1a09!2sSgto.%20Juan%20Bautista%20Cabral%201155%2C%20La%20Lonja%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1711878846629!5m2!1sen!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+        <section class="seccion5" id="ubicacion">
+            <h2> seccion 5 - ¿Dónde Ubicarnos?</h2>
+            <div class="mapaContainer">
+                <iframe class ="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.4198256205104!2d-58.8662582243238!3d-34.44148934894869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9c51de9fcd0f%3A0x400a4e64b5ba1a09!2sSgto.%20Juan%20Bautista%20Cabral%201155%2C%20La%20Lonja%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1711878846629!5m2!1sen!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <form class="contactForm">
+                    <label for="nombre"></label>
+                    <input type="text" id="nombre" placeholder="Nombre y Apellido"/>
+                    
+                    <label for="interesado">Interesado:</label>
+                    <select name="interesado" id="interesado">
+                        <option>Supermercado</option>
+                        <option>Mayorista</option>
+                        <option>Distribuiora</option>
+                        <option>Otro</option>
+                    </select>
+
+                    <label for="mepresa"></label>
+                    <input type="text" id="mepresa" placeholder="Nombre de la empresa"/>
+
+                    <label for="webSite"></label>
+                    <input type="text" id="webSite" placeholder="Redes o Sitio Web"/>
+
+                    <label for="email"></label>
+                    <input type="email" id ="email" placeholder="correo Electrónico"/>
+
+                    <label for="tel"></label>
+                    <input type="tel" name="tel" id="tel" placeholder="+54 9 11 1111-1111"/>
+
+                    <label for="mensaje"></label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Por favor, contanos como te podemos ayudar"></textarea>
+
+                    <label for="terminos"></label>
+                    <input type="checkbox" name="terminos" id="terminos"/> Acepto la politica de privacidad y los terminos y condicones de Vientos de Altura
+
+                    <label for="news"></label>
+                    <input type="checkbox" name="news" id="news"/> Deseo suscribirme a la newsletter
+
+                    <label for="enviar"></label>
+                    <input type="submit" name="enviar" id="enviar" value="enviar"/>
+                </form>
+            </div>
         </section>
         <hr/>
 

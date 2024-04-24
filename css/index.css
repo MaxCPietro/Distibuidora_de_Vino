@@ -6,18 +6,23 @@
     --colorPrimario: #f18624;
     --colorsecundario: #1395BA;
     --colorTerciario: #FFE184;
+    --colorOscuro: #222222;
 }
 
 /*1 - CSS etiquetas HTML que aplican a toda la página*/
 
 h1 {
-    font-family: Georgia, serif;
-    font-size: 2.5vw;
-    font-weight: bold;
-    color: black; /* Color oscuro */
+    font-family: 'Quicksand', sans-serif;
+    font-optical-sizing: auto;
+    font-size: 2.3vw;
+    font-weight: 300;
+    font-weight: light;
+    color: var(--colorOscuro); /* Color oscuro */
+    text-align: center;
+    padding: 1vw;
 }
 h2 {
-    font-family: Georgia, serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, Georgia, serif;
     font-size: 2vw;
     font-weight: bold;
     color: var(--colorPrimario); /* Color oscuro */
@@ -154,7 +159,54 @@ header nav div ul li a:hover {
 }
 
 /*5 - CSS Seccion 4 - Nosotros*/
+
+.seccion4 {
+    display: flex;
+    border: none;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.seccion4 h1 {
+    /*border: #f18624 0.1vw solid;*/
+    width: 10%;
+    align-self: center;
+    /*margin-right: 1vw;*/
+}
+
+.itemDuenia {
+    /*border: black 0.1vw solid;*/
+    width: 15%;
+    height: 15%;
+    object-fit: cover;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
 .contenedorNosotros {
+    /*border: #1395BA 0.1vw solid;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.seccion4 p {
+    /*font-family: 'Quicksand', sans-serif;*/
+    font-family: 'Roboto', Verdana, sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.3vw;
+    font-weight: 200;
+    color: var(--colorOscuro); /* Color oscuro*/
+    text-align: center;
+    align-self: center;
+    padding: 1vw;
+    max-width: 100%;
+    /*border: #1395BA 0.1vw solid;*/
+    justify-content: center;
+}
+
+/*.contenedorNosotros {
     border: 0.5vw solid green;
     display: flex;
     flex-wrap: wrap;
@@ -177,7 +229,7 @@ header nav div ul li a:hover {
     color: #f18624;
     font-size: 2vw;
     margin-bottom: 2vw;
-}
+}*/
 
 /*5.1 - CSS Seccion 4 - Nosotros - Media Query*/
 @media only screen and (max-width: 700px) {
@@ -252,6 +304,9 @@ header nav div ul li a:hover {
 
 
 /*9 - CSS Seccion 6 - Contacto*/
+.seccion6{
+    background-color: lightblue;
+}
 .contactForm
 {
     border: 0.5vw solid greenyellow

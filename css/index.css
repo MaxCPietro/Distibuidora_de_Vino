@@ -1,5 +1,8 @@
 /*0 - CSS que aplica a todo*/
-* { width: 100vm;}
+* { 
+    width: 100vm;
+    scroll-behavior: smooth;
+}
 
 /*Definicion de Variables CSS*/
 :root {
@@ -212,11 +215,11 @@ header nav div ul li a:hover {
 .caja {
     border: 0.1vw solid var(--colorPrimario);
 }
-/*7 - CSS Sección 3 - Clientes*/
+/*7 - CSS Sección 3 - Clientes
 .gridContainerClientes {
     border: 0.5vw solid green;
     /*display: grid;
-    grid-template-columns: repeat(4,200px);*/
+    grid-template-columns: repeat(4,200px);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -229,7 +232,7 @@ header nav div ul li a:hover {
     height: 97px;
     text-align: center;
 }
-
+*/
 /*8 - CSS Seccion 5 - Ubicacion*/
 .mapaContainer {
     display: flex;

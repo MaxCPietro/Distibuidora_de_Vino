@@ -252,6 +252,11 @@ header nav div ul li a:hover {
 
 /*6 - CSS Sección 2 - Productos*/
 
+.seccion2 {
+    background-color: #CCCCCC;
+    border: none;
+}
+
 .ulproductos {
     border: 0.5vw solid black;
     margin: 0vw;
@@ -283,6 +288,11 @@ header nav div ul li a:hover {
 }
 
 /*8 - CSS Seccion 5 - Ubicacion*/
+
+.seccion5{
+    background-color: #CCCCCC;
+}
+
 .mapaContainer {
     display: flex;
     flex-wrap: nowrap;

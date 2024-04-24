@@ -1,14 +1,11 @@
-* {
-    font-family: "Montserrat", Tahoma, Verdana, sans-serif;
-}
 
 :root {
     --colorPrimario: #f18624;
     --colorsecundario: #1395ba;
     --colorTerciario: #ffe184;
-    --colorSegunLogo: #4D4C73;
-    --colorSegunlogo2: #2B2D4A;
-    --colorSegunlogo3: #D9C771;
-    --colorSegunlogo4: #CCCCCC;
-    --colorSegunlogo5: #BFBFBF;
+    --lila_claro: #4D4C73;
+    --lila_oscuro: #2B2D4A;
+    --oro: #D9C771;
+    --gris_claro: #CCCCCC;
+    --gris: #BFBFBF;
 }

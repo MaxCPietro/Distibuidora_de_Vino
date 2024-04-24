@@ -1,3 +1,4 @@
+@import url("./variables.css");
 @import url("./header.css");
 @import url("./footer.css");
 @import url("./quienessomos.css");
@@ -6,4 +7,12 @@
 @import url("./index.css");
 @import url("./clientes.css");
 
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", Tahoma, Verdana, sans-serif;
+  }
+  main{
+background-color: var(--gris_claro);
+  }

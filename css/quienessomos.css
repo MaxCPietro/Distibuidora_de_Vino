@@ -1,7 +1,7 @@
 
 /*5 - CSS Seccion 4 - Nosotros*/
 .contenedorNosotros {
-    border: 0.5vw solid green;
+ background-color: var(--gris_claro);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -10,18 +10,17 @@
 }
 
 .contenedorNosotros img {
-    width: 20vw;
-    border: 0.5vw solid yellow;
+    width: 10vw;
+
 }
 .contenedorNosotros ul {
     width: 70vw;
-    border: 0.5vw solid black;
     text-align: justify;
 }
 
 .contenedorNosotros ul li {
-    color: #f18624;
-    font-size: 2vw;
+    color: var(--lila_claro);
+    font-size: 1vw;
     margin-bottom: 2vw;
 }
 

@@ -269,6 +269,7 @@ header nav div ul li a:hover {
 .caja {
     border: 0.1vw solid var(--colorPrimario);
 }
+
 /*7 - CSS Sección 3 - Clientes*/
 .gridContainerClientes {
     border: 0.5vw solid green;
@@ -277,7 +278,6 @@ header nav div ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0px;
 }
 
 .gridItemCliente {

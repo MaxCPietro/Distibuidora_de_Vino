@@ -1,0 +1,68 @@
+/*10 - CSS footer*/
+footer {
+    border: 0.5vw solid blue;
+    background-color: #20232a;
+    color: #fff;
+    padding: 4vw 0vw;
+}
+
+footer h4 {
+    color: #fff;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .social-buttons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+footer .newsletter-form input[type="email"] {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+footer .newsletter-form button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sub-footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.sub-footer p {
+    margin: 0;
+}
+
+
+/* 10.1 - Estilos para pantallas más pequeñas */
+@media (max-width: 768px) {
+    footer .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    footer .col-md-4 {
+        margin-bottom: 30px;
+    }
+
+    footer .newsletter-form input[type="email"] {
+        width: 100%;
+    }
+}

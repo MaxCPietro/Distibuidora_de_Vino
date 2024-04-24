@@ -1,0 +1,34 @@
+@import url("./variables.css");
+/*8 - CSS Seccion 5 - Ubicacion*/
+.mapaContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+}
+.mapa {
+    border : 0.3vw solid green;
+    width: 50vw;
+    height: 50vw;
+}
+
+.contacto {
+    border : 0.3vw solid orange;
+    width: 50vw;
+}
+
+
+/*9 - CSS Seccion 6 - Contacto*/
+.contactForm
+{
+    border: 0.5vw solid greenyellow
+}
+.contactFormt input, label, textarea {
+    display: block;
+}
+
+form > label > select {
+    display: inline;
+}

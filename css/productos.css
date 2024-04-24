@@ -1,0 +1,14 @@
+/*6 - CSS Sección 2 - Productos*/
+
+.ulproductos {
+    border: 0.5vw solid black;
+    margin: 0vw;
+    padding: 0vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.caja {
+    border: 0.1vw solid var(--colorPrimario);
+}

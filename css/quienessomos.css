@@ -1,0 +1,45 @@
+
+/*5 - CSS Seccion 4 - Nosotros*/
+.contenedorNosotros {
+    border: 0.5vw solid green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.contenedorNosotros img {
+    width: 20vw;
+    border: 0.5vw solid yellow;
+}
+.contenedorNosotros ul {
+    width: 70vw;
+    border: 0.5vw solid black;
+    text-align: justify;
+}
+
+.contenedorNosotros ul li {
+    color: #f18624;
+    font-size: 2vw;
+    margin-bottom: 2vw;
+}
+
+/*5.1 - CSS Seccion 4 - Nosotros - Media Query*/
+@media only screen and (max-width: 700px) {
+    .contenedorNosotros {
+        flex-direction: column;
+        align-content: center;
+        margin: 10%;
+        width: 80%;
+    }
+    .contenedorNosotros img {
+        width: 100%;
+    }
+    .contenedorNosotros ul{
+        width: 100%;
+    }
+    .contenedorNosotros ul li {
+        font-size: 4vw;
+    }
+}

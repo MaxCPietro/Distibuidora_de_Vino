@@ -28,16 +28,17 @@ h2 {
     color: var(--colorPrimario); /* Color oscuro */
 }
 h3 {
-    font-family: Georgia, serif;
-    font-size: 1.5vw;
-    font-weight: bold;
-    color: var(--colorsecundario); /* Color oscuro */
+    font-family: 'Montserrat', sans-serif, Georgia, serif;
+    font-size: 1.3vw;
+    font-weight: 300;
+    color: var(--colorOscuro); 
 }
 h4 {
     font-family: Georgia, serif;
     font-size: 1vw;
     font-weight: bold;
     color: #333; /* Color oscuro */
+    font-style: italic;
 }
 
 section{
@@ -257,8 +258,13 @@ header nav div ul li a:hover {
     border: none;
 }
 
+.seccion2 h3 {
+    text-align: center;
+    margin-top: 0.5vw;
+}
+
 .ulproductos {
-    border: 0.5vw solid black;
+/* border: 0.5vw solid black;*/
     margin: 0vw;
     padding: 0vw;
     display: flex;
@@ -267,8 +273,22 @@ header nav div ul li a:hover {
 }
 
 .caja {
-    border: 0.1vw solid var(--colorPrimario);
+    /*border: 0.1vw solid var(--colorPrimario);*/
+    padding-right: 0.5vw;
+    padding-left: 0.5vw;
 }
+
+.btnBodega {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 0.5vw;
+}
+
+/*.caja:hover{
+    background-color: var(--colorTerciario);
+}*/
 
 /*7 - CSS Sección 3 - Clientes*/
 .gridContainerClientes {

@@ -291,17 +291,29 @@ header nav div ul li a:hover {
 }*/
 
 /*7 - CSS Sección 3 - Clientes*/
+
+.seccion3 {
+    border: none;
+}
+
+.seccion3 h3 {
+    text-align: center;
+    margin-bottom: 0.5vw;
+}
+
 .gridContainerClientes {
-    border: 0.5vw solid green;
+    /*border: 0.5vw solid green;
     /*display: grid;
     grid-template-columns: repeat(4,200px);*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .gridItemCliente {
-    border: 0.1vw solid blue;
+    /*border: 0.1vw solid blue;*/
     width: 192px;
     height: 97px;
     text-align: center;

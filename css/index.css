@@ -336,7 +336,10 @@ header nav div ul li a:hover {
     /*border: 0.5vw solid greenyellow;*/
     flex-basis: 50vw;
 }
-.contactForm input:not([type="checkbox"]):not([type="submit"]), .contactForm textarea, .contactForm label{
+.contactForm input:not([type="checkbox"]):not([type="submit"]), 
+.contactForm textarea, 
+.contactForm label,
+.contactForm select {
     display: block;
     width: 90%;
     background-color: var(--ColorBackgroundGris);
@@ -351,27 +354,13 @@ label span {
     color: red
 }
 
-#interesado, #terminos, #teminosOpcion{
+#interesado {
     display: inline;
     font-family: 'Montserrat', sans-serif;
     font-size: 1vw;
     background-color: var(--ColorBackgroundGris);
-    max-width: 50%;
-}
-
-
-.contactForm select {
-    display: inline;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1vw;
-    background-color: var(--ColorBackgroundGris);
-    padding: 0.2vw;
-}
-
-.contactForm input[type="checkbox"],
-.contactForm input[type="checkbox"] + label {
-    display: inline; 
-    font-size: 1vw;
+    max-width: 30%;
+    text-align: center;
 }
 
 .imgContacto {
@@ -382,23 +371,27 @@ label span {
 
 /*9 - CSS Seccion 5 - Ubicacion*/
 
+.seccion5 {
+    border: none;
+}
 .mapaContainer {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
+    flex-wrap: wrap;
+    /*flex-direction: column;*/
+    justify-content:flex-start;
     align-items: center;
     align-content: center;
     gap: 10px;
 }
 .mapa {
-    border : 0.3vw solid green;
-    width: 50vw;
-    height: 50vw;
+    /*border : 0.3vw solid green;*/
+    width: 29vw;
+    height: 29vw;
 }
 
-.contacto {
-    border : 0.3vw solid orange;
-    width: 50vw;
+.mapaMendoza {
+    /*border : 0.3vw solid orange;*/
+    align-self: flex-start;
 }
 
 /*10 - CSS footer*/

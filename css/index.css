@@ -63,6 +63,7 @@ strong {
 .seccion1{
     /*background: #FFE184;*/
     border: none;
+    height: 60vh;
 }
 
 .carousel{

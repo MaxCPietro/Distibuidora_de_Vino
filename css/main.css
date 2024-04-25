@@ -6,7 +6,7 @@
 @import url("./productos.css");
 @import url("./index.css");
 @import url("./clientes.css");
-
+@import url("./ubicacion.css");
 * {
     margin: 0;
     padding: 0;

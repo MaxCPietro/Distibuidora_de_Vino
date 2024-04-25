@@ -96,20 +96,3 @@
     align-self: self-end;
 }
 
-/*9 - CSS Seccion 5 - Ubicacion*/
-
-.mapaContainer {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    gap: 10px;
-}
-.mapa {
-    border : 0.3vw solid green;
-    width: 50vw;
-
-}
-
-

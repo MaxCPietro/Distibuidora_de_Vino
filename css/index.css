@@ -106,15 +106,14 @@ header nav div ul li a:hover {
     background-color: #FFE184;
 }
 
-.pedido {
+/*.pedido {
     background-color:  #FFE184;
     color: black;
     border-color: white;
     text-align: center;
-    /*border-radius: 7%;*/
-    font-size: 1.5vw;
-    
-}
+    border-radius: 7%;
+    font-size: 1.5vw;   
+}*/
 
 .pedido:hover {
     color: black;

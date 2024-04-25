@@ -21,18 +21,20 @@ header nav img {
 header nav div ul li {
     margin-right: 2vmin;
     display: inline;
+   
 }
 
 header nav div ul li a {
     text-decoration: none;
-    color:var(--colorSegunLogo);
+    color:var(--lila_claro);
     font-size: 1.4vw;
     
 }
 
 header nav div ul li a:hover {
-    color: var(--colorSegunLogo2);
+    color: var(--lila_oscuro);
     font-size: 1.5vw;
+    text-decoration: none;
 }
 
 

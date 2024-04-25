@@ -324,6 +324,7 @@ header nav div ul li a:hover {
 .seccion6{
     background-color: var(--ColorBackgroundGris);
     border: none;
+    padding-bottom: 1vw;
 }
 
 .formContainer {
@@ -377,11 +378,11 @@ label span {
 .mapaContainer {
     display: flex;
     flex-wrap: wrap;
-    /*flex-direction: column;*/
     justify-content:flex-start;
     align-items: center;
     align-content: center;
     gap: 10px;
+    margin-top: 2vw;
 }
 .mapa {
     /*border : 0.3vw solid green;*/

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONTACTO</title>
+    <link rel="icon" href="../img/logos/wine-glass.svg" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css" />
+    <script
+    src="https://kit.fontawesome.com/bf609d073d.js"
+    crossorigin="anonymous"
+  ></script>
+  </head>
+  
+  <body>
+    <header>
+      <nav>
+        <img
+          class="logoNav"
+          src="../img/logos/vientosDeAltura-logo.png"
+          alt="logoNav"
+        />
+        <div class="menu">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./quienessomos.html">Quienes Somos</a></li>
+            <li><a href="./productos.html">Productos</a></li>
+            <li><a href="./clientes.html">Clientes</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./ubicacion.html">Ubicacion</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="contacto" >
+        <div class="contactotitulo">
+          <h1>¿Cómo Podemos Ayudarte?</h2>
+            <h3>¡Gracias por visitar <strong><em>Bodega Vientos de Altura.</em></strong> Valoramos tu interés en nosotros y nos encantaría conocerte más. Por cualquier consulta o comentario, no dudes en ponerte en contacto con nosotros. Nos comunicaremos lo antes posible para ayudarte!</h3>
+            <img class="imgContacto" src="../img/otros/botellaGrandeGirada.png" alt="contacto">
+        </div> 
+        <div class="formContainer">
+            
+            <form class="contactForm">
+                <label for="nombre">Nombre y Apellido <span>*</span></label>
+                <input type="text" id="nombre" required/>
+              
+                
+                <label for="interesado" id="interesado">Interesado <span>*</span></label>
+                <select name="interesado" id="interesado" required>
+                    <option>Supermercado</option>
+                    <option>Mayorista</option>
+                    <option>Distribuidora</option> <!-- Corregido el nombre de la opción -->
+                    <option>Otro</option>
+                </select>
+              
+            
+                <label for="empresa">Empresa <span>*</span></label>
+                <input type="text" id="empresa" placeholder="Empresa" required/>
+              
+            
+                <label for="email">Correo Electrónico <span>*</span></label>
+                <input type="email" id ="email" placeholder="Correo Electrónico"/>
+              
+            
+                <label for="tel">Teléfono:</label>
+                <input type="tel" name="tel" id="tel" placeholder="Formato: +54 9 11 1111-1111"/>
+              
+            
+                <label for="mensaje">Mensaje <span>*</span></label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="6" placeholder="Por favor, contanos cómo te podemos ayudar" required></textarea>
+              
+            
+                <label for="terminos">
+                    <input type="checkbox" name="terminos" required/>
+                    Acepto la política de privacidad y los términos y condiciones de Vientos de Altura.
+                </label>
+                
+            
+                <input type="submit" name="enviar" id="enviar" value="Enviar"/>
+            </form>                
+        </div>
+   </div>
+
+
+  </main>
+    <footer>
+      <div class="footerContainer">
+        <div class="row">
+          <div class="col-md-4">
+            <h4>Contacto</h4>
+            <p><strong>Dirección:</strong> Av. Rivadavia 3500, CABA, Argentina</p>
+            <p><strong>Teléfono:</strong> +54 11 1234-5678</p>
+            <p><strong>Email:</strong> info@vientosdealtura.com</p>
+          </div>
+          <div class="col-md-4">
+            <h4>Redes Sociales</h4>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/TuPagina" target="_blank"
+                  ><i class="fa-brands fa-square-facebook"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://twitter.com/TuPagina" target="_blank"
+                  ><i class="fa-brands fa-square-x-twitter"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/TuPagina" target="_blank"
+                  ><i class="fa-brands fa-square-instagram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4>Newsletter</h4>
+            <p>
+              Suscríbete a nuestro boletín para recibir las últimas noticias y
+              ofertas.
+            </p>
+            <form action="#" method="post" class="newsletter-form">
+              <input
+                type="email"
+                name="email"
+                placeholder="Tu correo electrónico"
+              />
+              <button type="submit">Suscribirse</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="sub-footer">
+        <div class="container">
+          <p>&copy; 2024 Vientos de Altura. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  
+</html>

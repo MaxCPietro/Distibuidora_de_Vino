@@ -2,50 +2,37 @@
 * { width: 100vm;}
 
 /*Definicion de Variables CSS*/
-:root {
-    --colorPrimario: #f18624;
-    --colorsecundario: #1395BA;
-    --colorTerciario: #FFE184;
-    --colorOscuro: #222222;
-    --ColorBackgroundGris: #CCCCCC;
-}
+
 
 /*1 - CSS etiquetas HTML que aplican a toda la página*/
 
 h1 {
-    font-family: 'Quicksand', sans-serif;
-    font-optical-sizing: auto;
-    font-size: 2.3vw;
-    font-weight: 300;
-    font-weight: light;
-    color: var(--colorOscuro); /* Color oscuro */
-    text-align: center;
-    padding: 1vw;
+ 
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: black; /* Color oscuro */
 }
 h2 {
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, Georgia, serif;
+   
     font-size: 2vw;
     font-weight: bold;
     color: var(--colorPrimario); /* Color oscuro */
 }
 h3 {
-    font-family: 'Montserrat', sans-serif, Georgia, serif;
-    font-size: 1.3vw;
-    font-weight: 300;
-    color: var(--colorOscuro);
-    padding: 1vw;
+    
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: var(--colorsecundario); /* Color oscuro */
 }
 h4 {
-    font-family: Georgia, serif;
+   
     font-size: 1vw;
     font-weight: bold;
     color: #333; /* Color oscuro */
     font-style: italic;
 }
 
-section{
-    border: 0.5vw solid red;
-}
+
 
 strong {
     font-weight: bold;
@@ -71,78 +58,13 @@ strong {
     color: white;
 }
 
-/*3 - CSS HEADER*/
-header{ 
-    background: #CCCCCC;
-    margin: 0px;
-}
 
-header nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header nav img {
-    width: 150px;
-    margin-left: 1vw;
-}
-header nav div ul li {
-    margin-right: 2vmin;
-    display: inline;
-}
-
-header nav div ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.5vw;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif
-}
-
-header nav div ul li a:hover {
-    color: black;
-    background-color: #FFE184;
-}
-
-/*.pedido {
-    background-color:  #FFE184;
-    color: black;
-    border-color: white;
-    text-align: center;
-    border-radius: 7%;
-    font-size: 1.5vw;   
-}*/
-
-.pedido:hover {
-    color: black;
-    background-color: #CCCCCC;
-}
-
-/*3.1 - CSS HEADER - RESPONSIVE*/
-@media only screen and (max-width: 700px) {
-    header nav {
-        flex-direction: column;
-        align-content: center;
-        margin: 0% 10% 0% 10%;
-        width: 80%;
-    }
-    header nav div ul li {
-        display: block;
-        margin-right: 0;
-        text-align: center;
-        margin-bottom: 2vmin;
-    }
-    header nav div ul li a, header nav div ul li .pedido {
-        font-size: 5vw;
-    }
-}
 
 /*4 - CSS SECCION 1 - Carousel*/
 .seccion1{
     /*background: #FFE184;*/
     border: none;
+    height: 60vh;
 }
 
 .carousel{
@@ -160,306 +82,7 @@ header nav div ul li a:hover {
     /*border: 0.5vw solid yellow;*/
 }
 
-/*5 - CSS Seccion 4 - Nosotros*/
 
-.seccion4 {
-    display: flex;
-    border: none;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-}
 
-.seccion4 h1 {
-    /*border: #f18624 0.1vw solid;*/
-    width: 10%;
-    align-self: center;
-    /*margin-right: 1vw;*/
-}
 
-.itemDuenia {
-    /*border: black 0.1vw solid;*/
-    width: 15%;
-    height: 15%;
-    object-fit: cover;
-    margin-right: 2vw;
-    margin-left: 2vw;
-}
-
-.contenedorNosotros {
-    /*border: #1395BA 0.1vw solid;*/
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-.seccion4 p {
-    /*font-family: 'Quicksand', sans-serif;*/
-    font-family: 'Roboto', Verdana, sans-serif;
-    font-optical-sizing: auto;
-    font-size: 1.3vw;
-    font-weight: 200;
-    color: var(--colorOscuro); /* Color oscuro*/
-    text-align: center;
-    align-self: center;
-    padding: 1vw;
-    max-width: 100%;
-    /*border: #1395BA 0.1vw solid;*/
-    justify-content: center;
-}
-
-/*.contenedorNosotros {
-    border: 0.5vw solid green;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: flex-start;
-    align-items: center;
-}
-
-.contenedorNosotros img {
-    width: 20vw;
-    border: 0.5vw solid yellow;
-}
-.contenedorNosotros ul {
-    width: 70vw;
-    border: 0.5vw solid black;
-    text-align: justify;
-}
-
-.contenedorNosotros ul li {
-    color: #f18624;
-    font-size: 2vw;
-    margin-bottom: 2vw;
-}*/
-
-/*5.1 - CSS Seccion 4 - Nosotros - Media Query*/
-@media only screen and (max-width: 700px) {
-    .contenedorNosotros {
-        flex-direction: column;
-        align-content: center;
-        margin: 10%;
-        width: 80%;
-    }
-    .contenedorNosotros img {
-        width: 100%;
-    }
-    .contenedorNosotros ul{
-        width: 100%;
-    }
-    .contenedorNosotros ul li {
-        font-size: 4vw;
-    }
-}
-
-/*6 - CSS Sección 2 - Productos*/
-
-.seccion2 {
-    background-color: #CCCCCC;
-    border: none;
-}
-
-.seccion2 h3 {
-    text-align: center;
-    margin-top: 0.5vw;
-}
-
-.ulproductos {
-/* border: 0.5vw solid black;*/
-    margin: 0vw;
-    padding: 0vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.caja {
-    /*border: 0.1vw solid var(--colorPrimario);*/
-    padding-right: 0.5vw;
-    padding-left: 0.5vw;
-}
-
-.btnBodega {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    padding-bottom: 0.5vw;
-}
-
-/*.caja:hover{
-    background-color: var(--colorTerciario);
-}*/
-
-/*7 - CSS Sección 3 - Clientes*/
-
-.seccion3 {
-    border: none;
-}
-
-.seccion3 h3 {
-    text-align: center;
-    margin-bottom: 0.5vw;
-}
-
-.gridContainerClientes {
-    /*border: 0.5vw solid green;
-    /*display: grid;
-    grid-template-columns: repeat(4,200px);*/
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-.gridItemCliente {
-    /*border: 0.1vw solid blue;*/
-    width: 192px;
-    height: 97px;
-    text-align: center;
-}
-
-/*9 - CSS Seccion 6 - Contacto*/
-.seccion6{
-    background-color: var(--ColorBackgroundGris);
-    border: none;
-    padding-bottom: 1vw;
-}
-
-.formContainer {
-    /*border: 0.5vw solid rebeccapurple;*/
-    margin-top: 2vw;
-    display: flex;
-}
-.contactForm
-{
-    /*border: 0.5vw solid greenyellow;*/
-    flex-basis: 50vw;
-}
-.contactForm input:not([type="checkbox"]):not([type="submit"]), 
-.contactForm textarea, 
-.contactForm label,
-.contactForm select {
-    display: block;
-    width: 90%;
-    background-color: var(--ColorBackgroundGris);
-    color: var(--colorOscuro);
-    border: none;
-    padding: 0.2vw;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1vw;
-}
-
-label span {
-    color: red
-}
-
-#interesado {
-    display: inline;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1vw;
-    background-color: var(--ColorBackgroundGris);
-    max-width: 30%;
-    text-align: center;
-}
-
-.imgContacto {
-    /*border: #1395BA 0.5vw solid;*/
-    width: 50vw;
-    align-self: self-end;
-}
-
-/*9 - CSS Seccion 5 - Ubicacion*/
-
-.seccion5 {
-    border: none;
-}
-.mapaContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:flex-start;
-    align-items: center;
-    align-content: center;
-    gap: 10px;
-    margin-top: 2vw;
-}
-.mapa {
-    /*border : 0.3vw solid green;*/
-    width: 29vw;
-    height: 29vw;
-}
-
-.mapaMendoza {
-    /*border : 0.3vw solid orange;*/
-    align-self: flex-start;
-}
-
-/*10 - CSS footer*/
-footer {
-    border: 0.5vw solid blue;
-    background-color: #20232a;
-    color: #fff;
-    padding: 4vw 0vw;
-}
-
-footer h4 {
-    color: #fff;
-    font-size: 1vw;
-    font-weight: bold;
-}
-
-footer p {
-    margin-bottom: 10px;
-}
-
-footer .social-buttons img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-}
-
-footer .newsletter-form input[type="email"] {
-    width: 70%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-footer .newsletter-form button {
-    padding: 10px 20px;
-    background-color: #fff;
-    color: #333;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.sub-footer {
-    background-color: #222;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.sub-footer p {
-    margin: 0;
-}
-
-/* 10.1 - Estilos para pantallas más pequeñas */
-@media (max-width: 768px) {
-    footer .container {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    footer .col-md-4 {
-        margin-bottom: 30px;
-    }
-
-    footer .newsletter-form input[type="email"] {
-        width: 100%;
-    }
-}
 

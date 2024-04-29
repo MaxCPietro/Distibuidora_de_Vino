@@ -1,15 +1,13 @@
-
-/*10 - CSS footer*/
+/* Estilos para el footer */
 footer {
-    
-    background-color: var(--gris_claro);
-    color: var(--lila_claro);
-    padding: 5vh 10vw 05vh 10vw;
+    background-color: #cccccc;
+    color: #343a40;
+    padding: 50px 0;
 }
 
 footer h4 {
-    color: var(--lila_claro);
-    font-size: 1vw;
+    color: #343a40;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -17,7 +15,7 @@ footer p {
     margin-bottom: 10px;
 }
 
- .social-buttons img {
+.social-buttons img {
     width: 30px;
     height: 30px;
     margin-right: 10px;
@@ -26,22 +24,23 @@ footer p {
 .newsletter-form input[type="email"] {
     width: 70%;
     padding: 10px;
-    border: none;
+    border: 1px solid #ced4da;
     border-radius: 5px;
     margin-bottom: 10px;
 }
+
 .newsletter-form button {
     padding: 10px 20px;
-    background-color: var(--gris_oscuro);
-    color: var(--lila_claro);
+    background-color: #343a40;
+    color: #f8f9fa;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .sub-footer {
-    background-color: var(--gris_claro);
-    color: var(--lila_claro);
+    background-color: #cccccc;
+    color: #343a40;
     padding: 20px 0;
     text-align: center;
 }
@@ -50,19 +49,9 @@ footer p {
     margin: 0;
 }
 
-
-/* 10.1 - Estilos para pantallas más pequeñas */
+/* Estilos para pantallas más pequeñas */
 @media (max-width: 768px) {
-     .container {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-     .col-md-4 {
-        margin-bottom: 30px;
-    }
-
-   .newsletter-form input[type="email"] {
+    .newsletter-form input[type="email"] {
         width: 100%;
     }
 }

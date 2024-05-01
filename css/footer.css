@@ -1,38 +1,35 @@
 /* Estilos para el footer */
 footer {
     background-color: #cccccc;
-    color: #343a40;
+    color: var(--lila_claro);
     padding: 50px 0;
 }
 
 footer h4 {
-    color: #343a40;
+    color: var(--lila_oscuro);
     font-size: 18px;
     font-weight: bold;
 }
 
 footer p {
     margin-bottom: 10px;
+    color: var(--lila_claro);
 }
 
-.social-buttons img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-}
-
-.newsletter-form input[type="email"] {
+footer form input[type="email"] {
     width: 70%;
     padding: 10px;
     border: 1px solid #ced4da;
     border-radius: 5px;
     margin-bottom: 10px;
 }
-
-.newsletter-form button {
-    padding: 10px 20px;
-    background-color: #343a40;
-    color: #f8f9fa;
+.social-buttons a i {
+    color: var(--lila_claro);
+    font-size: 24px; 
+}
+.newsletter-form button.btn-primary {
+    background-color: var(--lila_claro);
+    color: #cccccc;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -51,7 +48,7 @@ footer p {
 
 /* Estilos para pantallas más pequeñas */
 @media (max-width: 768px) {
-    .newsletter-form input[type="email"] {
+    footer form input[type="email"] {
         width: 100%;
     }
 }

@@ -6,23 +6,10 @@ header {
 .navbar-brand img {
     max-height: 60px; /* Tamaño máximo del logo */
 }
-
-.menu ul {
-    list-style-type: none; /* Elimina los puntos de la lista */
-    padding: 0; /* Elimina el espacio interno de la lista */
+.navbar-nav .nav-link {
+    color: var(--lila_claro)
 }
 
-.menu li {
-    display: inline-block; /* Muestra los elementos en línea */
-    margin-right: 20px; /* Espaciado entre elementos del menú */
-}
-
-.menu a {
-    text-decoration: none; /* Elimina el subrayado de los enlaces */
-    color: var(--lila_claro); /* Color del texto del menú */
-}
-
-.menu a:hover {
-    
+.navbar-nav:hover .nav-link:hover {
     color: var(--lila_oscuro);
 }

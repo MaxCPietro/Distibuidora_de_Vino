@@ -2,6 +2,7 @@
 /*5 - CSS Seccion 4 - Nosotros*/
 .quienessomos {
     display: flex;
+    flex-direction: column;
     border: none;
     width: 90%;
     justify-content: center;
@@ -11,20 +12,26 @@
 
 }
 
+
+  .titulo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+ 
 .titulo h1{
 
-    width: 10%;
+
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 3vw;
+    font-size: 30px;
     color: var(--lila_claro);
   
 }
 
 .itemDuenia  img{
  
-    width: 20vw;
+    /* width: 20vw; */
    
     object-fit: cover;
     margin-right: 2vw;
@@ -39,19 +46,19 @@
     justify-content: center;
     align-items: center;
     align-content: center;
+    font-style: italic;
 }
 .quienessomos p {
     /*font-family: 'Quicksand', sans-serif;*/
     font-family: 'Montserrat', Verdana, sans-serif;
     font-optical-sizing: auto;
-    font-size: 1.3vw;
+    font-size: 20px;
     font-weight: 200;
     color: var(--lila_claro); /* Color oscuro*/
     text-align: center;
     align-self: center;
     padding: 1vw;
     max-width: 100%;
-    /*border: #1395BA 0.1vw solid;*/
     justify-content: center;
 }
 

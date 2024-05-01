@@ -1,5 +1,5 @@
 /*6 - CSS Sección 2 - Productos*/
-
+/* Estilos para la lista de productos */
 .ulproductos {
     border: 0.5vw solid black;
     margin: 0vw;
@@ -10,5 +10,26 @@
 }
 
 .caja {
-    border: 0.1vw solid var(--colorPrimario);
+    border: 2px solid var(--lila_claro);
+    box-shadow: 0 0 10px var(--lila_claro);
+    border-radius: 10px 30px 10px 30px;
+    margin: 10px; 
+    
+    padding: 10px;
+    text-align: center;
+ 
+}
+
+.item {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 30px 10px 30px;
+}
+
+.productoDescripcion {
+    font-size: 0.8em; 
+    margin-top: 5px; 
+}
+p {
+    color: var(--lila_claro); 
 }

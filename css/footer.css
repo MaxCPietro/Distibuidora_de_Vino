@@ -1,6 +1,6 @@
 /* Estilos para el footer */
 footer {
-    background-color: #cccccc;
+    background-color:var(--gris_claro); 
     color: var(--lila_claro);
     padding: 50px 0;
 }

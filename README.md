@@ -23,7 +23,7 @@ Este proyecto es una página y sistema web de la __bodega y distribudiora de vin
 4. Clientes: Presentación de los clientes de la bodega.
 5. Contacto: Formulario de contacto.
 6. Ubicación: Frames con las locaciones de la empresa tanto en Buenos Aires como en Mendoza.
-1. 
+
 ### Back-end
 *falta*
 

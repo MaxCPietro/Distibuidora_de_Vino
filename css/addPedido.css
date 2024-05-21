@@ -1,0 +1,17 @@
+body {
+    background-color: var(--gris_claro)
+}
+
+header, footer {
+    border: 0.2vw solid black;
+    padding: 1vw;
+}
+main{
+    max-width: 800px;
+    margin: 2vw auto;
+    padding: 1vw;
+    border: 0.2vw solid var(--oro);
+    border-radius: 1vw;
+    box-shadow: 0 0 10px var(--oro);
+    /*display: flex;*/
+}

@@ -8,6 +8,7 @@ header, footer {
     border: 0.2vw solid black;
     padding: 1vw;
 }
+
 main{
     max-width: 800px;
     margin: 2vw auto;
@@ -18,7 +19,7 @@ main{
     /*display: flex;*/
 }
 
-.container {
+.containerMain {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;

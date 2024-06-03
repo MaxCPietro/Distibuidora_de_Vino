@@ -1,5 +1,7 @@
 body {
-    background-color: var(--gris_claro)
+    background-color: var(--gris_claro);
+    font-family: Arial, sans-serif;
+    margin: 0;
 }
 
 header, footer {
@@ -14,4 +16,41 @@ main{
     border-radius: 1vw;
     box-shadow: 0 0 10px var(--oro);
     /*display: flex;*/
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+h1, h2 {
+    text-align: center;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+.details, .products {
+    width: 100%;
+    border-collapse: collapse;
+}
+.details th, .details td, .products th, .products td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+.products th {
+    background-color: #f0f0f0;
+}
+.products td {
+    text-align: right;
+}
+.products td:first-child {
+    text-align: left;
 }

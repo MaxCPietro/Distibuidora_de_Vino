@@ -11,7 +11,7 @@ header, footer {
 
 main{
     max-width: 800px;
-    margin: 2vw auto;
+    margin: 1vw auto;
     padding: 0vw;
     /*border: 0.2vw solid var(--oro);
     border-radius: 1vw;
@@ -26,24 +26,28 @@ h1 {
     text-align: left;
     padding: 1vw;
 }
+
 .containerMain {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 1vw auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
     background-color: #f9f9f9;
 }
+
 h1, h2 {
     text-align: center;
 }
+
 .section {
     margin-bottom: 20px;
 }
 .section h2 {
-    font-family: 'segoe', Tahoma, Verdana, sans-serif;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
     font-optical-sizing: auto;
-    font-size: 1.5vw;    font-weight: 300;
+    font-size: 2vw;    
+    font-weight: 300;
     border-bottom: 2px solid #ccc;
     padding-bottom: 10px;
     margin: 0vw;

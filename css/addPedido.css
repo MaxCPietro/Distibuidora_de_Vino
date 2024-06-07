@@ -2,20 +2,21 @@ body {
     background-color: var(--gris_claro);
     font-family: Arial, sans-serif;
     margin: 0;
+    align-content: center;
 }
 
 header, footer {
-    border: 0.2vw solid black;
     padding: 1vw;
 }
 
-main{
+main {
     max-width: 800px;
     margin: 1vw auto;
     padding: 0vw;
-    /*border: 0.2vw solid var(--oro);
+    border: 0.2vw solid var(--oro);
     border-radius: 1vw;
-    box-shadow: 0 0 10px var(--oro);*/
+    box-shadow: 0 0 10px var(--oro);
+    align-items: center ;
 }
 
 h1 {
@@ -27,6 +28,17 @@ h1 {
     padding: 1vw;
 }
 
+h2 {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 2vw;
+    margin: 0vw;
+    padding: 2vw 2vw 2vw 2vw;
+}
+
+.encabezadoOrden {
+    border: 0.2vw solid var(--oro);
+    border-radius: 1vw;
+}
 .containerMain {
     max-width: 800px;
     margin: 1vw auto;
@@ -36,19 +48,26 @@ h1 {
     background-color: #f9f9f9;
 }
 
+.Item{
+    width: 100%;
+}
+
 h1, h2 {
     text-align: center;
 }
 
 .section {
+    margin-top: 20px;
     margin-bottom: 20px;
+    border: 0.2vw solid var(--oro);
+    border-radius: 1vw;
 }
 .section h2 {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     font-optical-sizing: auto;
     font-size: 2vw;    
     font-weight: 300;
-    border-bottom: 2px solid #ccc;
+    /*border-bottom: 2px solid #ccc;*/
     padding-bottom: 10px;
     margin: 0vw;
 }
@@ -87,4 +106,47 @@ h1, h2 {
 }
 .btnOrden:hover {
     background-color: var(--lila_oscuro);
+}
+
+/* Estilos del menú header */
+header {
+    background-color: var(--gris_claro);
+    padding: 10px 0;
+}
+
+/* Estilos del menú */
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 20px;
+}
+
+.navbar-brand {
+    margin-right: 20px;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
 }
